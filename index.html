@@ -3,45 +3,44 @@
     <head>
         <meta charset="utf-8">
         <title>NPM Clone</title>
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./style.css">
     </head>    
     <body>
 
         <!-- HEADER SECTION -->
-        <header class="header">
-            
-            <!-- NAV BAR -->                    
-            <nav>
-                <div class="brand-name">
-                    <img src="./images/black-heart.png" alt="Black heart">
-                    <p> Nifty Penguin Magic </p>
-                </div>
-
-                <ul class="nav-elements">
-                    <li><a href="#"> npm Enterprise </a></li>
-                    <li><a href="#"> Products </a></li>
-                    <li><a href="#"> Solutions </a></li>
-                    <li><a href="#"> Resources </a></li>
-                    <li><a href="#"> Docs </a></li>
-                    <li><a href="#"> Support </a></li>
-                </ul>            
-            </nav>
-            
-            <img class="logo" src="./images/npm-logo.png" alt="NPM-logo">
-
-            <!-- SEARCH BAR -->
-            <div class="search-bar">
-                <img src="./images/magnifying-glass.png" alt="magnifying-glass">
-                <form action="./index.html" method="get">
-                    <input type="text" name="search-bar" placeholder="Search packages">
-                    <button type="submit" class="search-button"> Search </button>
-                </form>                
-            </div>
-            
-            <!-- SIGN UP LINKS -->
+        <header>
             <div>
+                <div>
+                    <img class="blackHeart" src="./images/black-heart.png" alt="Black heart">
+                    <span> Nifty Penguin Magic </span>
+                </div>
+                
+                <!-- NAV BAR -->                    
+                <nav>
+                    <ul class="nav-elements">
+                        <li><a href="#"> npm Enterprise </a></li>
+                        <li><a href="#"> Products </a></li>
+                        <li><a href="#"> Solutions </a></li>
+                        <li><a href="#"> Resources </a></li>
+                        <li><a href="#"> Docs </a></li>
+                        <li><a href="#"> Support </a></li>
+                    </ul>            
+                </nav>
+            </div>
+                        
+            <!-- SEARCH BAR -->
+            <div class="search-bar-container">
+                <img class="logo" src="./images/npm-logo.png" alt="NPM-logo">
+                <form class="search-bar" action="./index.html" method="get">
+                    <label for="search-bar"><img class="magnifying-glass" src="./images/magnifying-glass.png" alt="magnifying-glass"></label>                    
+                    <input type="text" id="search-bar" name="search-bar" placeholder="Search packages">                    
+                    <button type="submit" class="search-button"> Search </button>
+                </form>
+                
+                <!-- SIGN UP LINKS -->                
                 <a class="join-link" href="#"> Join </a>
                 <a class="Log-in-link" href="#"> Log In </a>
+                
             </div>
         </header>
 
