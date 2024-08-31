@@ -39,42 +39,44 @@ header > div {
   }
 
   .magnifying-glass {
-    width: 20px;
+    
 
   }
 
   .search-bar label, input {
     background-color: rgba(0,0,0,.05);
     border: none;    
-    padding: 1em 1em; 
+    padding: 0em 1em; 
   }
 
   .search-bar label img {
+    width: 25px;
     height: auto;
-    padding: 5px;
+    position: relative;
+    top: 12px;
   }
 
   .search-bar input {
-    width: 500px;
+    width: 700px;
   }
 
   .search-bar-container form {
     display: flex;
     justify-content: flex-start;
     align-items: stretch;
-    text-align: start;
   }
 
   .search-bar button {
     background-color: #fb3e44;
     color: white;
-    padding: 1em 1.5em;
+    padding: 1em 2em;
+    border: 1px solid grey
   }
 
   .search-bar-container a {
     color: black;
     text-decoration: none;
-    padding: 10px 30px;    
+    padding: 0.5em 1em;    
   }
 
   .join-link {
