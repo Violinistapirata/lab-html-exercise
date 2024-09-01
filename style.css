@@ -1,16 +1,21 @@
+/* Set default font for the document */
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 body {
   font-family: 'Poppins';
+
+  /* reset page layout */
   margin: 0;
   padding: 0;
 }
 
-h1, h2 {
+/* reset headers layout */
+h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
 
+/* header section styling */
 header > div {
     padding: 5px 25px;
     display: flex;
@@ -19,6 +24,12 @@ header > div {
     border-bottom: 1px solid lightgray;
   }
   
+  /* first header div and nav bar styling*/
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
   nav {
     width: 600px;
   }
@@ -34,15 +45,17 @@ header > div {
     text-decoration: none;
     color: black;
   }
-  
-  .blackHeart {
-    width: 20px;
-    margin-right: 1rem;
-  }
 
+  /* second header div, search bar and buttons styling */
   .logo {
     width: 60px;
     margin-right: 1rem;
+  }
+
+  .search-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
   }
 
   .search-bar label, input {
@@ -62,12 +75,6 @@ header > div {
     width: 700px;
   }
 
-  .search-bar-container form {
-    display: flex;
-    justify-content: flex-start;
-    align-items: stretch;
-  }
-
   .search-bar button {
     background-color: #fb3e44;
     color: white;
@@ -75,10 +82,11 @@ header > div {
     border: 1px solid grey
   }
 
+  /* join and log in buttons */
   .search-bar-container a {
     color: black;
     text-decoration: none;
-    padding: 0.5em 1em;    
+    padding: 0.2em 1em;    
   }
 
   .join-link {
@@ -97,7 +105,6 @@ form button letters color: white */
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 } 
 
 #plans {
@@ -120,6 +127,7 @@ form button letters color: white */
     display: flex;
     justify-content: space-evenly;
 }
+
 .plans-buttons a {
     font-size: 20px;
     text-decoration: none;
@@ -159,6 +167,7 @@ form button letters color: white */
 
 .icon {
     width: 40px;
+    height: 40px;
 }
 
 .features {
