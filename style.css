@@ -158,14 +158,34 @@ form button letters color: white */
 }
 
 .icon {
-    width: 50px;
+    width: 40px;
 }
 
 .features {
+    margin: 50px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.features article {
-    border: 1px solid black;
+.features article {  
+    width: 19%;  
+    padding: 10px;
+    margin: 20px;
+}
+
+.features article h3 {
+    color: #ED1C24;
+}
+
+.black-button a {
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+    background-color: black;    
+    color: white;
+    text-decoration: none;
+    padding: 15px 110px;
+    font-weight: bold;
+}
+
+#features {
+    justify-content: flex-start;
 }
