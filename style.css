@@ -94,11 +94,7 @@ header > div {
     border: 2px black groove;
 }
 
-/* form label color: rgba(0,0,0,.05)
-form input color: rgba(0,0,0,.05)
-form button background color: #fb3e44
-form button letters color: white */
-
+/* general styling for the sections layout*/
 .section-box {
     height: 600px;    
     display: flex;
@@ -107,6 +103,7 @@ form button letters color: white */
     align-items: center;
 } 
 
+/* Section 1 */
 #plans {
     background-color: rgba(232,217,217,.3);
 }
@@ -115,6 +112,7 @@ form button letters color: white */
     font-size: 5em;
 }
 
+/* general styling for the article tags (only S1 & S2) */
 .article {
     width: 40%;
     text-align: center;
@@ -122,6 +120,7 @@ form button letters color: white */
     margin: 60px;
 }
 
+/* styling for the buttons */
 .plans-buttons {
     width: 40%;
     display: flex;
@@ -144,9 +143,10 @@ form button letters color: white */
     color: black;
 }
 
-#companies {
-    justify-content: center;
-}
+/* Section 2 */
+
+/* this section has the 
+.section-box class */
 
 #companies img {
     width: 200px;
@@ -161,15 +161,26 @@ form button letters color: white */
     margin-top: 60px;
 }
 
+/* this element has the .article class */
 #companies article {
     width: 60%;
 }
 
+/* Section 3 */
+
+/* this section has the 
+.section-box class */
+#features {
+    justify-content: flex-start;
+}
+
+/* resizing for all the icons */
 .icon {
     width: 40px;
     height: 40px;
 }
 
+/* flexbox for the features articles */
 .features {
     margin: 50px;
     display: flex;
@@ -193,8 +204,4 @@ form button letters color: white */
     text-decoration: none;
     padding: 15px 110px;
     font-weight: bold;
-}
-
-#features {
-    justify-content: flex-start;
 }
